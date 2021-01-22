@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "jacksonjeans/file": ">=1.0.*",
+        "jacksonjeans/file": ">=1.0",
         "php":">=5.3.3"
     }
 }

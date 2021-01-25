@@ -189,6 +189,254 @@ The headerLine is by default 0.
 $CsvFile->setHeaderLine(0);
 ```
 
+### output
+
+```
+Open with string filepath: CSV file is well-formed
+
+int(1)
+array(6) {
+  ["Name"]=>
+  string(4) "John"
+  ["Nachname"]=>
+  string(3) "Doe"
+  ["Anschrift"]=>
+  string(17) "120 jefferson st."
+  ["Stadt"]=>
+  string(9) "Riverside"
+  ["Staat"]=>
+  string(3) " NJ"
+  ["Postleitzahl"]=>
+  string(6) " 08075"
+}
+
+int(2)
+array(6) {
+  ["Name"]=>
+  string(4) "Jack"
+  ["Nachname"]=>
+  string(8) "McGinnis"
+  ["Anschrift"]=>
+  string(12) "220 hobo Av."
+  ["Stadt"]=>
+  string(5) "Phila"
+  ["Staat"]=>
+  string(3) " PA"
+  ["Postleitzahl"]=>
+  string(5) "09119"
+}
+
+int(3)
+array(6) {
+  ["Name"]=>
+  string(13) "John "Da Man""
+  ["Nachname"]=>
+  string(6) "Repici"
+  ["Anschrift"]=>
+  string(17) "120 Jefferson St."
+  ["Stadt"]=>
+  string(9) "Riverside"
+  ["Staat"]=>
+  string(3) " NJ"
+  ["Postleitzahl"]=>
+  string(5) "08075"
+}
+
+int(4)
+array(6) {
+  ["Name"]=>
+  string(7) "Stephen"
+  ["Nachname"]=>
+  string(5) "Tyler"
+  ["Anschrift"]=>
+  string(32) "7452 Terrace "At the Plaza" road"
+  ["Stadt"]=>
+  string(8) "SomeTown"
+  ["Staat"]=>
+  string(2) "SD"
+  ["Postleitzahl"]=>
+  string(6) " 91234"
+}
+
+int(5)
+array(6) {
+  ["Name"]=>
+  string(0) ""
+  ["Nachname"]=>
+  string(8) "Blankman"
+  ["Anschrift"]=>
+  string(0) ""
+  ["Stadt"]=>
+  string(8) "SomeTown"
+  ["Staat"]=>
+  string(3) " SD"
+  ["Postleitzahl"]=>
+  string(6) " 00298"
+}
+
+int(6)
+array(6) {
+  ["Name"]=>
+  string(21) "Joan "the bone", Anne"
+  ["Nachname"]=>
+  string(3) "Jet"
+  ["Anschrift"]=>
+  string(19) "9th, at Terrace plc"
+  ["Stadt"]=>
+  string(11) "Desert City"
+  ["Staat"]=>
+  string(2) "CO"
+  ["Postleitzahl"]=>
+  string(5) "00123"
+}
+
+Open with string: CSV string is well-formed
+
+int(1)
+array(6) {
+  ["Name"]=>
+  string(4) "John"
+  ["Nachname"]=>
+  string(3) "Doe"
+  ["Anschrift"]=>
+  string(17) "120 jefferson st."
+  ["Stadt"]=>
+  string(9) "Riverside"
+  ["Staat"]=>
+  string(3) " NJ"
+  ["Postleitzahl"]=>
+  string(5) " 0807"
+}
+
+Open with resource: CSV file is well-formed
+
+int(1)
+array(6) {
+  ["Name"]=>
+  string(4) "John"
+  ["Nachname"]=>
+  string(3) "Doe"
+  ["Anschrift"]=>
+  string(17) "120 jefferson st."
+  ["Stadt"]=>
+  string(9) "Riverside"
+  ["Staat"]=>
+  string(3) " NJ"
+  ["Postleitzahl"]=>
+  string(6) " 08075"
+}
+
+int(2)
+array(6) {
+  ["Name"]=>
+  string(4) "Jack"
+  ["Nachname"]=>
+  string(8) "McGinnis"
+  ["Anschrift"]=>
+  string(12) "220 hobo Av."
+  ["Stadt"]=>
+  string(5) "Phila"
+  ["Staat"]=>
+  string(3) " PA"
+  ["Postleitzahl"]=>
+  string(5) "09119"
+}
+
+int(3)
+array(6) {
+  ["Name"]=>
+  string(13) "John "Da Man""
+  ["Nachname"]=>
+  string(6) "Repici"
+  ["Anschrift"]=>
+  string(17) "120 Jefferson St."
+  ["Stadt"]=>
+  string(9) "Riverside"
+  ["Staat"]=>
+  string(3) " NJ"
+  ["Postleitzahl"]=>
+  string(5) "08075"
+}
+
+int(4)
+array(6) {
+  ["Name"]=>
+  string(7) "Stephen"
+  ["Nachname"]=>
+  string(5) "Tyler"
+  ["Anschrift"]=>
+  string(32) "7452 Terrace "At the Plaza" road"
+  ["Stadt"]=>
+  string(8) "SomeTown"
+  ["Staat"]=>
+  string(2) "SD"
+  ["Postleitzahl"]=>
+  string(6) " 91234"
+}
+
+int(5)
+array(6) {
+  ["Name"]=>
+  string(0) ""
+  ["Nachname"]=>
+  string(8) "Blankman"
+  ["Anschrift"]=>
+  string(0) ""
+  ["Stadt"]=>
+  string(8) "SomeTown"
+  ["Staat"]=>
+  string(3) " SD"
+  ["Postleitzahl"]=>
+  string(6) " 00298"
+}
+
+int(6)
+array(6) {
+  ["Name"]=>
+  string(21) "Joan "the bone", Anne"
+  ["Nachname"]=>
+  string(3) "Jet"
+  ["Anschrift"]=>
+  string(19) "9th, at Terrace plc"
+  ["Stadt"]=>
+  string(11) "Desert City"
+  ["Staat"]=>
+  string(2) "CO"
+  ["Postleitzahl"]=>
+  string(5) "00123"
+}
+
+
+read csv as assoc array
+
+John		Doe			120 jefferson st.			Riverside
+Jack		McGinnis			220 hobo Av.			Phila
+John "Da Man"		Repici			120 Jefferson St.			Riverside
+Stephen		Tyler			7452 Terrace "At the Plaza" road			SomeTown
+		Blankman						SomeTown
+Joan "the bone", Anne		Jet			9th, at Terrace plc			Desert City
+
+get json 
+
+string(795) "{"1":{"Name":"John","Nachname":"Doe","Anschrift":"120 jefferson st.","Stadt":"Riverside","Staat":" NJ","Postleitzahl":" 08075"},"2":{"Name":"Jack","Nachname":"McGinnis","Anschrift":"220 hobo Av.","Stadt":"Phila","Staat":" PA","Postleitzahl":"09119"},"3":{"Name":"John \"Da Man\"","Nachname":"Repici","Anschrift":"120 Jefferson St.","Stadt":"Riverside","Staat":" NJ","Postleitzahl":"08075"},"4":{"Name":"Stephen","Nachname":"Tyler","Anschrift":"7452 Terrace \"At the Plaza\" road","Stadt":"SomeTown","Staat":"SD","Postleitzahl":" 91234"},"5":{"Name":"","Nachname":"Blankman","Anschrift":"","Stadt":"SomeTown","Staat":" SD","Postleitzahl":" 00298"},"6":{"Name":"Joan \"the bone\", Anne","Nachname":"Jet","Anschrift":"9th, at Terrace plc","Stadt":"Desert City","Staat":"CO","Postleitzahl":"00123"}}"
+
+
+get objects 
+
+John		Doe			120 jefferson st.			Riverside
+Jack		McGinnis			220 hobo Av.			Phila
+John "Da Man"		Repici			120 Jefferson St.			Riverside
+Stephen		Tyler			7452 Terrace "At the Plaza" road			SomeTown
+		Blankman						SomeTown
+Joan "the bone", Anne		Jet			9th, at Terrace plc			Desert City
+
+
+Output from new Csv File:
+
+"Name","Nachname","Anschrift","Stadt"
+"John","Doe","120 jefferson st.","Riverside"
+```
+
 ## php-csv is child class of php-file
 
 php-csv is child class of php-file and can therefore use all methods that are also considered for php-file.
